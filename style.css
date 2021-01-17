@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
-:root
-{
-    
-}
-
 body
 {
     font-family: 'Bodoni','serif';
@@ -65,7 +60,7 @@ body
 /**header**/
 .header 
 {
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0rem rem 0rem;
     display: block;
 }
 .header .header-img
