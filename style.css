@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+:root
+{
+    
+}
+
+body
+{
+    font-family: 'Bodoni','serif';
+    margin: auto;
+    background-color: thistle;
+
+}
+
+
+/**input**/
+#txt-input
+{
+    width: 50%;
+    height: 10vh;
+    display: block;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    background-color: white;
+}
+
+.input-header, .output-header
+{
+    text-align: center;
+    font-size: large;
+}
+#output
+{
+    width: 50%;
+    height: 10vh;
+    display: block;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem;
+    border: 1px solid black;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+}
+
+/**button**/
+#btn-translate
+{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    font-weight: bolder;
+    margin: auto;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid black;
+    display: block;
+}
+
+/**header**/
+.header 
+{
+    padding: 1rem 0rem 1rem 0rem;
+    display: block;
+}
+.header .header-img
+{
+    max-width: 300px;
+    display:block;
+    margin: auto;
+}
+
+.header .header-heading
+{
+    text-align: center;
+    color: black;
+    margin: auto;
+    padding: 1rem;
+}
+
+/** section**/
+.one
+{
+    padding: 1rem;
+    text-align: center;
+}
+.one .img
+{
+    max-width: 400px;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+}
+
+/**footer**/
+.footer
+{
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #D1FAE5;
+    text-align: center;
+}
+
+.footer .header
+{
+    margin: auto;
+    text-align: center;
+}
+
+.footer .para
+{
+    max-width: 600px;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    font-size: small;
+}
+
+.footer .img
+{
+    max-width: 200px;
+}
+
